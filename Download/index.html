@@ -1,59 +1,58 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=1920"/>
-    <meta name="description"
-          content="Tizen Download API Demo" />
-
-    <title>Tizen Download API</title>
-
-    <script type='text/javascript' src='$WEBAPIS/webapis/webapis.js'></script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A premium portfolio for an independent creative designer specializing in brand, motion, 3D and VFX.">
+  <title>Alex Morgan — Creative Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="Alex Morgan home">AM<span>®</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="mailto:hello@alexmorgan.design">Let's talk <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+  </header>
 
-    <h1>Tizen Download API</h1>
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-meta"><span class="eyebrow"><i></i> Independent creative designer</span><span class="availability">Available for select projects · 2024—25</span></div>
+      <div class="hero-copy">
+        <p class="kicker">Graphic design · Motion · 3D · VFX</p>
+        <h1>Turning ideas<br>into <em>visual</em><br>experiences<span>.</span></h1>
+        <div class="hero-bottom"><p>Creative Designer with 8+ years of experience transforming ideas into impactful visual experiences through graphic design, branding, motion graphics, 3D visualization, animation, VFX, and digital marketing.</p><a class="circle-link" href="#work" aria-label="Scroll to selected work">↓</a></div>
+      </div>
+      <div class="hero-art"><div class="art-label">Selected<br>work / 01</div><div class="hero-orb"></div><div class="hero-stamp">Craft<br>with<br>intent</div></div>
+    </section>
 
-    <div class="left">
-        <h2>Available buttons/actions:</h2>
+    <section id="work" class="work section-pad">
+      <div class="section-heading"><div><p class="kicker">01 / Selected work</p><h2>A selection of<br><em>visual stories.</em></h2></div><p class="heading-note">A mix of identities, campaigns<br>and worlds built across mediums.</p></div>
+      <div class="filter-bar"><button class="filter active" data-filter="all">All work <sup>08</sup></button><button class="filter" data-filter="identity">Identity</button><button class="filter" data-filter="motion">Motion</button><button class="filter" data-filter="3d">3D / VFX</button><span class="scroll-hint">Drag to explore <span>→</span></span></div>
+      <div class="project-grid">
+        <article class="project project-large" data-category="identity motion"><div class="project-image image-one"><span class="project-index">01</span><span class="image-word">FORM<br><small>FUNCTION / FEELING</small></span></div><div class="project-info"><div><h3>Form / Function</h3><p>Brand identity · Art direction</p></div><span class="year">2024</span></div></article>
+        <article class="project" data-category="3d"><div class="project-image image-two"><span class="project-index">02</span><span class="glass-orb"></span></div><div class="project-info"><div><h3>Object / 01</h3><p>3D product visualization</p></div><span class="year">2024</span></div></article>
+        <article class="project" data-category="motion"><div class="project-image image-three"><span class="project-index">03</span><div class="motion-type">MOVE<br><i>with purpose</i></div></div><div class="project-info"><div><h3>Move with purpose</h3><p>Social campaign · Motion</p></div><span class="year">2023</span></div></article>
+        <article class="project project-wide" data-category="identity"><div class="project-image image-four"><span class="project-index">04</span><div class="poster-copy">NORTH<br><span>STUDIO</span><b>EST. 2024</b></div></div><div class="project-info"><div><h3>North Studio</h3><p>Brand identity · Print · Digital</p></div><span class="year">2023</span></div></article>
+        <article class="project" data-category="3d"><div class="project-image image-five"><span class="project-index">05</span><div class="arch"></div></div><div class="project-info"><div><h3>Open House</h3><p>Exhibition space · 3D render</p></div><span class="year">2022</span></div></article>
+        <article class="project" data-category="motion"><div class="project-image image-six"><span class="project-index">06</span><div class="vfx-title">VFX<br><small>/ FRAME 24</small></div></div><div class="project-info"><div><h3>Frame 24</h3><p>VFX · Post-production</p></div><span class="year">2022</span></div></article>
+      </div>
+      <button class="load-more">View all projects <span>↗</span></button>
+    </section>
 
-        <div>
-            1 - Downloaded file lists<br>
-            2 - Start download - small file<br>
-            3 - Start download - large file<br>
-            Pause - Pause download<br>
-            Play - Resume download<br>
-            Stop - Cancel download<br>
-            0 - Clear logs
-        </div>
+    <section id="about" class="about section-pad dark-section"><div class="about-number">02</div><div class="section-heading"><div><p class="kicker">02 / About the practice</p><h2>Ideas, made<br><em>tangible.</em></h2></div></div><div class="about-layout"><p class="about-lead">I’m a self-motivated, detail-oriented creative professional with extensive experience across creative design and technical production.</p><div class="about-text"><p>For over eight years, I’ve helped ambitious brands find their visual voice — from the first spark of a concept through to the final pixel, frame, or render.</p><p>My practice moves between strategy and craft, making space for work that is considered, expressive, and built to connect.</p><a class="text-link" href="#contact">More about me <span>↗</span></a></div></div><div class="stats"><div><strong>08+</strong><span>Years of experience</span></div><div><strong>40</strong><span>Brands launched</span></div><div><strong>12</strong><span>Creative disciplines</span></div><div><strong>∞</strong><span>Curiosity</span></div></div></section>
 
-        <div id="progress" class="progress">
-            <div id="bar" class="bar"></div>
-        </div>
+    <section id="services" class="services section-pad"><div class="section-heading"><div><p class="kicker">03 / Capabilities</p><h2>One practice,<br><em>many dimensions.</em></h2></div><p class="heading-note">The right combination of thinking,<br>making and moving.</p></div><div class="service-list"><div class="service-row"><span>01</span><h3>Brand & Graphic Design</h3><p>Identities, campaigns, print and digital systems.</p><b>↗</b></div><div class="service-row"><span>02</span><h3>Motion & 2D Animation</h3><p>Stories that move across screens and platforms.</p><b>↗</b></div><div class="service-row"><span>03</span><h3>3D & Product Visualization</h3><p>Modeling, materials, lighting and cinematic worlds.</p><b>↗</b></div><div class="service-row"><span>04</span><h3>VFX & Video Editing</h3><p>Post-production, compositing and final delivery.</p><b>↗</b></div><div class="service-row"><span>05</span><h3>Exhibition & Spatial Design</h3><p>Physical environments with digital precision.</p><b>↗</b></div></div><div class="software"><p class="kicker">Tools of the trade</p><div class="software-list"><span>Photoshop</span><span>Illustrator</span><span>After Effects</span><span>Premiere Pro</span><span>3ds Max</span><span>V-Ray</span><span>Maya</span></div></div></section>
 
-        <fieldset>
-            <legend>Downloaded files:</legend>
-            <div id="fileList" class="logs"></div>
-        </fieldset>
+    <section class="process section-pad"><div class="section-heading"><div><p class="kicker">04 / The process</p><h2>Good work is<br><em>a process.</em></h2></div></div><div class="process-grid"><div><span>01</span><h3>Discover</h3><p>Listen deeply. Find the real question.</p></div><div><span>02</span><h3>Research</h3><p>Look sideways. Build a rich context.</p></div><div><span>03</span><h3>Concept</h3><p>Make the invisible visible.</p></div><div><span>04</span><h3>Design</h3><p>Shape the idea with intention.</p></div><div><span>05</span><h3>Animate</h3><p>Give it rhythm, depth and life.</p></div><div><span>06</span><h3>Refine</h3><p>Every detail earns its place.</p></div></div></section>
 
-        <fieldset>
-            <legend>Logs</legend>
-            <div id="logs" class="logs"></div>
-        </fieldset>
-    </div>
-    <div class="right">
-        <h2>Info</h2>
-
-        <p>This application demonstrates the usage of Tizen download API</p>
-
-        <p>The application downloads files from <code>http://techslides.com</code> and <code>http://download.blender.org</code>. If these domains are not accessible it will not work.<br>
-
-            You can change the source location of files to download by changing the contents of <code>url1</code> and <code>url2</code> variables in <code>main.js</code> file</cide></p>
-    </div>
-
-    <script src="main.js"></script>
+    <section id="contact" class="contact dark-section"><div class="contact-top section-pad"><p class="kicker">05 / Start a conversation</p><h2>Let’s create<br>something <em>great.</em></h2><a class="contact-button" href="mailto:hello@alexmorgan.design">Start a project <span>↗</span></a></div><footer class="site-footer section-pad"><div class="footer-brand">AM<span>®</span><p>Independent creative designer<br>based in Dubai, working worldwide.</p></div><div><p class="footer-label">Get in touch</p><a href="mailto:hello@alexmorgan.design">hello@alexmorgan.design</a><a href="tel:+971501234567">+971 50 123 4567</a></div><div><p class="footer-label">Elsewhere</p><a href="#">LinkedIn ↗</a><a href="#">Behance ↗</a><a href="#">Instagram ↗</a></div><div class="copyright">© 2024 Alex Morgan<br>All rights reserved.</div></footer></section>
+  </main>
+  <script src="main.js"></script>
 </body>
 </html>
